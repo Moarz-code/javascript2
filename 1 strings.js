@@ -22,3 +22,4 @@ const brands = "Samsung, Apple, Lenovo"
 brands.split(",")
 console.log(brands)// notice here you still get the string 
 console.log(brands.split(","))// here you get the the array 
+
