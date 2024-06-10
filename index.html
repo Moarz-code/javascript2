@@ -1,6 +1,6 @@
 <html> 
     <head> 
-        <link rel="/.one.js">
+        <link rel="stylesheet" href="style.css" />
     </head> 
 
 
@@ -13,12 +13,28 @@
        <section class="container" > 
             <form id="my-form">
                 <h1>Add User</h1>
-                <div class="msg"></div>
+                <div class="msg">
+                    <label for ="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Emails:</label>
+                    <input type="text" id="email">
+                </div>
+                <input class ="btn" type="submit" value="Submit">
             </form>
        </section>
+
+       <ul id="users"></ul>
+
+       <ul class="items">
+         <li class="item">Item 1</li>
+         <li class="item">Item 2</li>
+         <li class="item">Item 3</li>
+       </ul> 
+       <script src="E Event handlers.js"></script>
     </body> 
 
-    <script src="one.js">
 
    
 </html>
